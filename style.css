@@ -98,3 +98,43 @@ hr.hr1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.425);
 }
+
+/*Grid Section Start*/
+
+.txt{ 
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 120px 0px;
+    max-width: 100%;
+}
+.text{
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid{
+    max-width: 988px;
+    margin: auto;
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  .item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+  }
+  .item1 video{
+    width: 652px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 35px;
+  }
