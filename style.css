@@ -113,19 +113,23 @@ hr.hr1{
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.grid{
+.grid {
     max-width: 988px;
     margin: auto;
-}
-.grid {
     display: grid;
     gap: 10px;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     padding: 10px;
   }
-  .item1 {
+  .items{
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  .item1{
+    position: relative;
     grid-column: 1 / span 3;
     grid-row: 1;
+    border-radius: 35px;
   }
   
   .item2 {
@@ -136,5 +140,12 @@ hr.hr1{
     width: 652px;
     height: 300px;
     object-fit: cover;
-    border-radius: 35px;
+  }
+  .p-i{
+    display: flex;
+    position: absolute;
+    align-items: center;
+  }
+  .p{
+    
   }
